@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@100&family=Roboto:wght@100&display=swap');
+
+
+body{
+    background: linear-gradient(90deg, #ADA7FF,#BBADFF,#CBB2FE,#DAB6FC,#DDBDFC,#E0C3FC);
+}
+.box{
+    background: #17181F;
+    border-radius:5em;
+    height:auto;
+    width:80vw;
+    position: relative;
+    left:10%;
+    margin:4% 0;
+}
+
+.progpy{
+    position: relative;
+    padding:5%;
+}
+
+.progpy p{
+    color:white;
+    font-family:'open sans','sans-serif';
+    font-size:1.5em;
+    margin:0;
+}
