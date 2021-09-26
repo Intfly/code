@@ -4,6 +4,38 @@
 body{
     background: linear-gradient(90deg, #ADA7FF,#BBADFF,#CBB2FE,#DAB6FC,#DDBDFC,#E0C3FC);
 }
+
+.box1{
+    width: 80vw;
+    height:12vh;
+    margin:2% 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    font-size: 3em;
+    font-family: "open-sans", sans-serif;
+    color:white;
+    display: inline-block;
+    position: absolute;
+    left:30%;
+    transition: font-size .5s .1s;
+}
+#a2{
+    left:50%;
+}
+
+#a3{
+    left:70%;
+}
+
+a:hover{
+    font-size:3.5em;
+}
+
+
 .box{
     background: #17181F;
     border-radius:5em;
@@ -19,7 +51,12 @@ body{
     padding:5%;
 }
 
-.progpy p{
+#pprogpy{
+    font-size:2.5em;
+    margin: 0 0 3% 0;
+}
+
+p{
     color:white;
     font-family:'open sans','sans-serif';
     font-size:1.5em;
