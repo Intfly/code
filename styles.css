@@ -67,10 +67,26 @@ p{
     position: sticky;
     width:5em; 
     height:5em;
-    bottom:1vh;
-    left:99vw; 
+    bottom:3vh;
+    left:95.5vw; 
+    border-radius: .25em;
+    background:hsla(0, 0%, 100%, 0.075);
+    border: 1px solid rgba(255, 255, 255, 0.123);
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
 }
 #haut-p img{
-    width:2em;
+    width:3em;
     height:auto;
+}
+
+@media (max-width: 1440px){
+    p{
+        font-size:.75em;
+    }
+    a{
+        font-size:1.2em;
+    }
+    .pprog{
+        font-size:1em;
+    }
 }
