@@ -31,27 +31,26 @@ a{
     left:70%;
 }
 
-a:hover{
+#top a:hover{
     font-size:3.5em;
 }
 
-
-.box{
-    background: #17181F;
-    border-radius:5em;
+.container{
     height:auto;
     width:80vw;
     position: relative;
     left:10%;
     margin:4% 0;
 }
-
-.progpy{
+.box{
+    background: #17181F;
+    border-radius:5em;
+    margin-top:4%;
     position: relative;
     padding:5%;
 }
 
-#pprogpy{
+.pprog{
     font-size:2.5em;
     margin: 0 0 3% 0;
 }
@@ -61,4 +60,17 @@ p{
     font-family:'open sans','sans-serif';
     font-size:1.5em;
     margin:0;
+}
+
+#haut-p{
+    font-size:1em;
+    position: sticky;
+    width:5em; 
+    height:5em;
+    bottom:1vh;
+    left:99vw; 
+}
+#haut-p img{
+    width:2em;
+    height:auto;
 }
