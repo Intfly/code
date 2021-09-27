@@ -81,12 +81,12 @@ p{
 
 @media (max-width: 1440px){
     p{
-        font-size:.75em;
+        font-size:1em;
     }
     a{
-        font-size:1.2em;
+        font-size:1.5em;
     }
     .pprog{
-        font-size:1em;
+        font-size:1.25em;
     }
 }
